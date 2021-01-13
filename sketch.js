@@ -11,8 +11,8 @@ function setup() {
   createCanvas(400, 400);
   rectMode(CENTER);
       fill(255, 0, 251);
-  Xpos = random(0, width - size)
-  Ypos = random(0, height - size)
+  Xpos = random(50, width - size)
+  Ypos = random(50, height - size)
 }
 
 function draw() {
